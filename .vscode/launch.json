@@ -1,0 +1,51 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "tic_tac_toe_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "tic_tac_toe_app (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "tic_tac_toe_app (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        // {
+        //     "name": "Chrome",
+        //     "request": "launch",
+        //     "type": "dart",
+        //     "deviceId": "chrome"
+        // },
+        {
+            "name": "Redmi Note 8",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "adb-f6bqx4tkfi7xmfjf-8dZesK._adb-tls-connect._tcp"
+        },
+        {
+            "name": "Redmi Note 4",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "adb-285809390404-j6Y8Of._adb-tls-connect._tcp"
+        }
+    ],
+
+    "compounds": [
+        {
+            "name": "All Devices",
+            "configurations": ["Redmi Note 8", "Redmi Note 4"]
+        }
+    ]
+}
